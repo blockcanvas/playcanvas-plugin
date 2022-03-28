@@ -1,5 +1,5 @@
 console.log('hey! plugin js code executed')
-//ver=1.0.2
+
 let yml = `
 ---
   initilize:
@@ -27,7 +27,8 @@ Script.prototype.update = function(dt) {
           
           messages:
             - initalize
-            -
+            - initialize section
+            - update section
           hasReturn: false
           tooltip: test
           
