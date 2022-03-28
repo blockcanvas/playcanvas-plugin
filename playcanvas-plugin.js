@@ -1,23 +1,23 @@
 console.log('hey! plugin js code executed')
-//ver=11
+//ver=12
 let yml = `
 ---
   playcanvas:
     color: ff0000
     icon: text.svg
     blocks:
-      - initiliaze:
+      - initiliaze1:
           shadows:
             - 1
           args:
             a: statement
-          function: initiliaze
-          code: > 
-           func initiliaze(a) {
-           print(a)
+          function: initiliaze1
+          code: >
+           var Script = pc.createScript('script');
+
+
   
-            
-           }
+        
 
 
 
