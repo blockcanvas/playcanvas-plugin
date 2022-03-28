@@ -18,7 +18,7 @@ let yml = `
             }
           
           messages:
-            - test
+            - initalize
             -
           hasReturn: false
           tooltip: test
