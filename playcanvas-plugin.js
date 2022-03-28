@@ -14,17 +14,8 @@ let yml = `
           function: initiliaze
           code: > 
            func initiliaze(a) {
-           //var Rifts = pc.createScript('rifts');
-
-// initialize code called once per entity
-//Rifts.prototype.initialize = function() {
-
-//};
-
-// update code called every frame
-//Rifts.prototype.update = function(dt) {
-
-//};
+           print(a)
+  
             
            }
 
