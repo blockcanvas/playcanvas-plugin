@@ -1,7 +1,7 @@
 console.log('hey! plugin js code executed')
 let yml = `
 ---
-  Test:
+  initilize:
     color: ff0000
     icon: text.svg
     blocks:
