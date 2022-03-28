@@ -13,9 +13,17 @@ let yml = `
             a: statement
           function: initiliaze
           code: > 
-            func initiliaze(a) {
-              print(a)
-            }
+            var Script = pc.createScript('script');
+
+// initialize code called once per entity
+Script.prototype.initialize = function() {
+
+};
+
+// update code called every frame
+Script.prototype.update = function(dt) {
+
+};
 
 
 
