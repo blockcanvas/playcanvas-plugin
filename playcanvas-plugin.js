@@ -1,5 +1,5 @@
 console.log('hey! plugin js code executed')
-ver=5
+ver=6
 let yml = `
 ---
   playcanvas:
@@ -14,6 +14,17 @@ let yml = `
           function: initiliaze
           code: > 
            func initiliaze(a) {
+           var Script = pc.createScript('script');
+
+// initialize code called once per entity
+Script.prototype.initialize = function() {
+
+};
+
+// update code called every frame
+Script.prototype.update = function(dt) {
+
+};
 
            }
 
