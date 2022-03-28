@@ -1,17 +1,17 @@
 console.log('hey! plugin js code executed')
- //ver=2
+
 let yml = `
 ---
   initilize:
     color: ff0000
     icon: text.svg
     blocks:
-      - initilize:
+      - initiliaze:
           shadows:
             - 1
           args:
             a: statement
-          function: initilize
+          function: initiliaze
           code: >
             var Script = pc.createScript('script');
 
@@ -26,7 +26,7 @@ let yml = `
             };
           
           messages:
-            - initalize
+            - initialize
             - initialize section
             - update section
           hasReturn: false
