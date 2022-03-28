@@ -13,10 +13,17 @@ let yml = `
             a: statement
           function: initilize
           code: >
-            func test(a, b) {
-              print(a)
-              b!()
-            }
+            var Script = pc.createScript('script');
+
+// initialize code called once per entity
+Script.prototype.initialize = function() {
+
+};
+
+// update code called every frame
+Script.prototype.update = function(dt) {
+
+};
           
           messages:
             - initalize
