@@ -13,17 +13,20 @@ let yml = `
             a: statement
           function: initiliaze
           code: > 
-            "var Script = pc.createScript('script');
+           func test(a, b) {
+              var Rifts = pc.createScript('rifts');
 
-// initialize code called once per entity
-Script.prototype.initialize = function() {
+              // initialize code called once per entity
+              Rifts.prototype.initialize = function() {
 
-};
+              };
 
-// update code called every frame
-Script.prototype.update = function(dt) {
+              // update code called every frame
+              Rifts.prototype.update = function(dt) {
 
-};"
+              };
+           }
+
 
 
 
