@@ -13,17 +13,9 @@ let yml = `
             a: statement
           function: initiliaze
           code: > 
-          var Script = pc.createScript('script');
-
-// initialize code called once per entity
-Script.prototype.initialize = function() {
-
-};
-
-// update code called every frame
-Script.prototype.update = function(dt) {
-
-};
+            func initiliaze(a) {
+              print(a)
+            }
 
 // swap method called for script hot-reloading
 // inherit your script state here
