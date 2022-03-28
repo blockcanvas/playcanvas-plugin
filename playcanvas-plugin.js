@@ -1,5 +1,5 @@
 console.log('hey! plugin js code executed')
-ver=6
+//ver=6
 let yml = `
 ---
   playcanvas:
