@@ -1,5 +1,5 @@
 console.log('hey! plugin js code executed')
-ver=4
+ver=5
 let yml = `
 ---
   playcanvas:
@@ -22,7 +22,7 @@ let yml = `
 
           
           messages:
-            - script
+            - create script
 
           hasReturn: false
           tooltip: test
