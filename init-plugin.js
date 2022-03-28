@@ -13,7 +13,7 @@ let yml = `
             a: statement
           function: initiliaze
           code: > 
-            var Script = pc.createScript('script');
+            "var Script = pc.createScript('script');
 
 // initialize code called once per entity
 Script.prototype.initialize = function() {
@@ -23,7 +23,7 @@ Script.prototype.initialize = function() {
 // update code called every frame
 Script.prototype.update = function(dt) {
 
-};
+};"
 
 
 
