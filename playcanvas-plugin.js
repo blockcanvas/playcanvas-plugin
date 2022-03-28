@@ -1,5 +1,5 @@
 console.log('hey! plugin js code executed')
-//ver=10
+//ver=11
 let yml = `
 ---
   playcanvas:
@@ -29,29 +29,7 @@ let yml = `
           hasReturn: false
           tooltip: test
     
-      - movement:
-          shadows:
-            - 1
-          args:
-            a: statement
-          function: movement
-          code: > 
-           func movement(a) {
-           print(a)
-  
-            
-           }
 
-
-
-
-          
-          messages:
-            - movement
-
-          hasReturn: false
-          tooltip: test
-          
           
 `
 createBlocksFromYAML(yml)
