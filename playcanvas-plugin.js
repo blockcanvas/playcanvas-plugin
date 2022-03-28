@@ -1,5 +1,5 @@
 console.log('hey! plugin js code executed')
-//ver=13
+//ver=14
 let yml = `
 ---
   playcanvas:
@@ -13,8 +13,10 @@ let yml = `
             a: statement
           function: initiliaze1
           code: >
-          
-           var Script = pc.createScript('script');
+            func initiliaze1(a) {
+              var Script = pc.createScript('script');
+            }
+           
 
 
   
