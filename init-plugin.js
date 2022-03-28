@@ -12,10 +12,17 @@ ver=0.0.2
             a: statement #we have two inputs one of them gives a normal value and the other one gives a program, a statement(as a lambda function)
           function: init #the function that we call when this block is used. you can see definition of it in the next line
           code: >
-            func init(a, b) {
-              print(a)
-              b!()
-            }
+var Script = pc.createScript('script');
+
+// initialize code called once per entity
+Script.prototype.initialize = function() {
+
+};
+
+// update code called every frame
+Script.prototype.update = function(dt) {
+
+};
           messages: #The messages we want to appear on the block (we put them before inputs)
             - playcanvasinit
             -
