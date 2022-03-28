@@ -24,7 +24,7 @@ let yml = `
 
           
           messages:
-            - create script
+            - create initialize 1
 
           hasReturn: false
           tooltip: test
