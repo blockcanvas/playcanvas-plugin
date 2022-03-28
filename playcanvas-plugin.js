@@ -14,7 +14,7 @@ let yml = `
           function: initiliaze1
           code: >
             func initiliaze1(a) {
-              var Script = pc.createScript('script');
+               var Script = pc.createScript('script');
             }
            
 
