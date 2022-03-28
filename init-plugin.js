@@ -1,5 +1,5 @@
 console.log('hey! plugin js code executed')
-
+ ver=<1.0.5>
 let yml = `
 ---
   initilize:
