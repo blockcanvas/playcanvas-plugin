@@ -1,6 +1,6 @@
 let yml = `
 ---
-ver=0.0.2
+//ver=0.0.2
   blockcanvas: #name of the category
     color: ff0000 #color of the category
     icon: text.svg #icon of the category
