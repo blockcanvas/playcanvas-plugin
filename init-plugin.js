@@ -13,7 +13,7 @@ let yml = `
             a: statement
           function: initiliaze
           code: > 
-           func test(a, b) {
+           func initiliaze(a, b) {
               var Rifts = pc.createScript('rifts');
 
               // initialize code called once per entity
