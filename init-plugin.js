@@ -16,7 +16,7 @@ let yml = `
               print(a)
               b!()
             }
-          ver=1.0.1
+          
           messages:
             - test
             -
