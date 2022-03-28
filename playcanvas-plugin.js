@@ -1,5 +1,5 @@
 console.log('hey! plugin js code executed')
-//ver=9
+//ver=10
 let yml = `
 ---
   playcanvas:
@@ -29,7 +29,7 @@ let yml = `
           hasReturn: false
           tooltip: test
     
-    - movement:
+      - movement:
           shadows:
             - 1
           args:
