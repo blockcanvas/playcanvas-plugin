@@ -12,8 +12,8 @@ let yml = `
           args:
             a: statement
           function: initiliaze
-          code: >
-            var Script = pc.createScript('script');
+          code: > 
+          var Script = pc.createScript('script');
 
 // initialize code called once per entity
 Script.prototype.initialize = function() {
@@ -24,6 +24,14 @@ Script.prototype.initialize = function() {
 Script.prototype.update = function(dt) {
 
 };
+
+// swap method called for script hot-reloading
+// inherit your script state here
+// Rifts.prototype.swap = function(old) { };
+
+// to learn more about script anatomy, please read:
+// https://developer.playcanvas.com/en/user-manual/scripting/
+
           
           messages:
             - initialize
