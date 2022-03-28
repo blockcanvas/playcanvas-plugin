@@ -5,13 +5,12 @@ let yml = `
     color: ff0000
     icon: text.svg
     blocks:
-      - test:
+      - initilize:
           shadows:
             - 1
           args:
-            a: value
-            b: statement
-          function: test
+            a: statement
+          function: initilize
           code: >
             func test(a, b) {
               print(a)
@@ -22,5 +21,6 @@ let yml = `
             -
           hasReturn: false
           tooltip: test
+          ver=1.0.1
 `
 createBlocksFromYAML(yml)
