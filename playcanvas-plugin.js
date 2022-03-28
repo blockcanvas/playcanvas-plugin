@@ -1,5 +1,5 @@
 console.log('hey! plugin js code executed')
-//ver=6
+//ver=7
 let yml = `
 ---
   playcanvas:
@@ -14,18 +14,25 @@ let yml = `
           function: initiliaze
           code: > 
            func initiliaze(a) {
-           var Script = pc.createScript('script');
+           "var Rifts = pc.createScript('rifts');
 
 // initialize code called once per entity
-Script.prototype.initialize = function() {
+Rifts.prototype.initialize = function() {
 
 };
 
 // update code called every frame
-Script.prototype.update = function(dt) {
+Rifts.prototype.update = function(dt) {
 
 };
 
+// swap method called for script hot-reloading
+// inherit your script state here
+// Rifts.prototype.swap = function(old) { };
+
+// to learn more about script anatomy, please read:
+// https://developer.playcanvas.com/en/user-manual/scripting/ "
+            
            }
 
 
