@@ -13,18 +13,8 @@ let yml = `
             a: statement
           function: initiliaze
           code: > 
-           func initiliaze(a, b) {
-              var Rifts = pc.createScript('rifts');
+           func initiliaze(a) {
 
-              // initialize code called once per entity
-              Rifts.prototype.initialize = function() {
-
-              };
-
-              // update code called every frame
-              Rifts.prototype.update = function(dt) {
-
-              };
            }
 
 
@@ -32,9 +22,8 @@ let yml = `
 
           
           messages:
-            - initialize
-            - initialize section
-            - update section
+            - script
+
           hasReturn: false
           tooltip: test
           
