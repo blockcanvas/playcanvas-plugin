@@ -17,12 +17,7 @@ let yml = `
               print(a)
             }
 
-// swap method called for script hot-reloading
-// inherit your script state here
-// Rifts.prototype.swap = function(old) { };
 
-// to learn more about script anatomy, please read:
-// https://developer.playcanvas.com/en/user-manual/scripting/
 
           
           messages:
