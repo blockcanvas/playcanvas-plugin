@@ -2,7 +2,7 @@ console.log('hey! plugin js code executed')
 ver=4
 let yml = `
 ---
-  initilize:
+  playcanvas:
     color: ff0000
     icon: text.svg
     blocks:
