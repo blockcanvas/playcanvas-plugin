@@ -22,6 +22,5 @@ let yml = `
             -
           hasReturn: false
           tooltip: test
-          ver=1.0.1
 `
 createBlocksFromYAML(yml)
